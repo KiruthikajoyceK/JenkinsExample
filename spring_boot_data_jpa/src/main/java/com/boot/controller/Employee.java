@@ -1,3 +1,4 @@
+
 package com.boot.controller;
 
 import javax.persistence.Entity;
@@ -7,6 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
+//Table
 @Table(name="employee")
 public class Employee {
 	@Id
